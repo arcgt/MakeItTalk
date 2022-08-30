@@ -1,11 +1,11 @@
 """
  # Copyright 2020 Adobe
  # All Rights Reserved.
- 
+
  # NOTICE: Adobe permits you to use, modify, and distribute this file in
  # accordance with the terms of the Adobe license agreement accompanying
  # it.
- 
+
 """
 
 from src.models.model_image_translation import ResUnetGenerator, VGGLoss
@@ -432,8 +432,3 @@ class Image_translation_block():
         # os.system('rm out.mp4')
 
         print('Time - ffmpeg add audio:', time.time() - st)
-
-
-
-
-

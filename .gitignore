@@ -1,0 +1,13 @@
+# misc
+__pycache__
+.DS_Store
+.git
+
+# models + embeddings
+examples/ckpt
+examples/dump
+
+# images, audio + outputs
+examples/images
+examples/audio
+examples/output
